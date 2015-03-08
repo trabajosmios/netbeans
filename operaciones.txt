@@ -1,0 +1,48 @@
+package operaciones;
+import java.util.Scanner;
+public class Operaciones {
+
+    public static void main(String[] args) {
+         Scanner leer = new  Scanner(System.in);
+        
+        int s,r,re;
+        
+        System.out.println("seleccione su operacion\nsuma:1\nresta:2\ndivision:3\nmultiplicacion:4");
+       s = leer.nextInt();
+        if (s==1){
+            System.out.println("SUMA\n ingrese su primer valor");
+            s = leer.nextInt();
+            System.out.println(" ingrese su segundo valor");
+            r = leer.nextInt();
+            re = (s+r);
+            System.out.println(" Resultado "+re);
+        }else if(s==2){
+        System.out.println("RESTA\n ingrese su primer valor");
+            s = leer.nextInt();
+            System.out.println(" ingrese su segundo valor");
+            r = leer.nextInt();
+            re = (s-r);
+            System.out.println(" Resultado: "+re);
+            
+        } if (s==3){
+            System.out.println("DIVISION\n ingrese su primer valor");
+            s = leer.nextInt();
+            System.out.println(" ingrese su segundo valor");
+            r = leer.nextInt();
+            re = (s/r);
+            System.out.println(" Resultado: "+re);
+            
+            }else if (s==4){
+            System.out.println("MULTIPLICACION\n ingrese su primer valor");
+            s = leer.nextInt();
+            System.out.println(" ingrese su segundo valor");
+            r = leer.nextInt();
+            re = (s*r);
+            System.out.println(" Resultado: "+re);
+            }
+            }
+                    
+            
+        }
+       
+        
